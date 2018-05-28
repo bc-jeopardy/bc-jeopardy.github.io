@@ -12,8 +12,7 @@ body{
 }
 
 #border{
-	border: .75em solid grey;
-	margin-right:-5px;
+	border: 1vw solid grey;
 }
 
 .keep-score{
@@ -39,13 +38,15 @@ body{
     opacity: .5;
 }
 
+
 .jeopardy-heading {
-	font-size: 2em;
+	font-size: 4vh;
 	border-top: 5px solid black;
+  border-left: 5px solid black;
 	border-bottom: 5px solid black;
 	border-right: 5px solid black;
-
 	border-collapse: collapse;
+  width: 100%;
   padding:.25em;
 }
 
@@ -63,8 +64,10 @@ body{
 	border: 5px solid black;
 	border-collapse: collapse;
 	text-align: center;
-	font-size:3.3em;
+	font-size:7.5vh;
 	font-weight:bold;
+  margin-right: 5px;
+
 
 }
 .jeopardy-data td{
