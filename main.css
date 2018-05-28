@@ -478,3 +478,13 @@ background-color:#FFF;
   text-align: center;
 }
 
+.solutions{
+   margin-left:90%; 
+   margin-top:40%; 
+   font-size:3em; 
+   color:#000;
+   position: fixed;
+}
+.solutions:hover{
+    opacity: .6;
+}
