@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>BC Jeopardy Game</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/gif" href="favicon.png" sizes="16x16" />
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Montserrat" rel="stylesheet">
+    <script type="text/javascript" src="scorekeeper.js"></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML' async></script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/latest.js?config=TeX-MML-AM_CHTML">
+</script>
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+   
+</script>
+
+</head>
+
+<body>
+    <div class="game">
+        <center><div class="header">BC Calculus ~ Budget Jeopardy 2018</div></center>
+        <div class="keep-score"><a href="#scorekeeper"> &#9998;</a></div>
+        <div class="body">
+            <center>
+            <div id="border"> 
+                <table class="jeopardy-heading" style="width:100%">
+                <tr>
+                    <th>Derivatives</th>
+                    <th>Integrals</th> 
+                    <th>Sequences<br/>Series</th>
+                    <th>Polar</th>
+                    <th>Related <br /> Rates</th>
+                    <th>Puns &amp; Jokes</th>
+                </tr>
+            </table>
+            <hr style="border-color:grey; color:grey; border-width: 8px; margin:0;" />
+            <!-- Code is by quantity then category-->
+            <table class="jeopardy-data" style ="width:100%">
+                <tr>
+                    <td><a href="#q1-1">$100</a></td>
+                    <td><a href="#q1-2">$100</a></td>
+                    <td><a href="#q1-3">$100</a></td>
+                    <td><a href="#q1-4">$100</a></td>
+                    <td><a href="#q1-5">$100</a></td>
+                    <td><a href="#q1-6">$100</a></td>
+                </tr>
+
+                <tr>
+                    <td><a href="#q2-1">$200</a></td>
+                    <td><a href="#q2-2">$200</a></td>
+                    <td><a href="#q2-3">$200</a></td>
+                    <td><a href="#q2-4">$200</a></td>
+                    <td><a href="#q2-5">$200</a></td>
+                    <td><a href="#q2-6">$200</a></td>
+                </tr>
+
+                <tr>
+                    <td><a href="#q3-1">$300</a></td>
+                    <td><a href="#q3-2">$300</a></td>
+                    <td><a href="#q3-3">$300</a></td>
+                    <td><a href="#q3-4">$300</a></td>
+                    <td><a href="#q3-5">$300</a></td>
+                    <td><a href="#q3-6">$300</a></td>
+                </tr>
+
+                <tr>
+                    <td><a href="#q4-1">$400</a></td>
+                    <td><a href="#q4-2">$400</a></td>
+                    <td><a href="#q4-3">$400</a></td>
+                    <td><a href="#q4-4">$400</a></td>
+                    <td><a href="#q4-5">$400</a></td>
+                    <td><a href="#q4-6">$400</a></td>
+                </tr>
+
+                <tr>
+                    <td><a href="#q5-1">$500</a></td>
+                    <td><a href="#q5-2">$500</a></td>
+                    <td><a href="#q5-3">$500</a></td>
+                    <td><a href="#q5-4">$500</a></td>
+                    <td><a href="#q5-5">$500</a></td>
+                    <td><a href="#q5-6">$500</a></td>
+                </tr>
+            </table>
+
+<!-- Set A Questions from 1-6 -->
+        <div id="q1-1" class="overlay">
+                <div class="popup">
+                    <h2>Derivatives - $100 </h2>
+                        <div class="content"> Given: $$ x=e^{4t} $$ and $$  y=sin(6t), $$ what is $$\frac{dy}{dt} $$</div>
+                        <a class="answer" href="#a1-1">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a1-1" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Derivatives - $100 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> $$ \frac{3e^{-4t}cos(6t)}{2}$$</div>
+                    </div>
+        </div>
+
+<!--Do this one!!! -->
+        <div id="q2-1" class="overlay">
+                <div class="popup">
+                    <h2>Derivatives - $200 </h2>
+                        <div class="content"> Math Question </div>
+                        <a class="answer" href="#a2-1">&rarr;</a>
+
+                </div>
+        </div>
+
+         <div id="a2-1" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Derivatives - $200 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> Math Answer </div>
+                    </div>
+        </div>
+
+        <div id="q3-1" class="overlay">
+                <div class="popup">
+                    <h2>Derivatives - $300 </h2>
+                        <div class="content">What is: </br> $$ \lim_{x \to \infty} ln(x)^{\frac{2}{x}} $$ </div>
+                        <a class="answer" href="#a3-1">&rarr;</a>
+                </div>
+        </div>
+
+         <div id="a3-1" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Derivatives - $300 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> Due to L'Hospitals rule... $$ \lim_{x \to \infty} ln(x)^{\frac{2}{x}} =0 $$ </div>
+                    </div>
+        </div>
+
+        <div id="q4-1" class="overlay">
+                <div class="popup">
+                    <h2>Derivatives - $400 </h2>
+                        <div class="content"> Use Euler's Method with 2 appromiations when h=.2 given $$\frac{dy}{dx} = y + cos(x) \text{ and the initial condition is (0,0)} $$</div>
+                        <a class="answer" href="#a4-1">&rarr;</a>
+                </div>
+        </div>
+
+         <div id="a4-1" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Derivatives - $400 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> 1.3561</div>
+                    </div>
+        </div>
+
+        <div id="q5-1" class="overlay">
+                <div class="popup">
+                    <h2>Derivatives - $500 </h2>
+                        <div class="content"> 10 grams of isotope <sup>239</sup>Pu were released. How long will it take for 10 grams to decay to 1 gram? </div>
+                        <a class="answer" href="#a5-1">&rarr;</a>
+                </div>
+        </div>
+
+         <div id="a5-1" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Derivatives - $500 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> Since $$ y=10e^{.000028761t} \text{ then } y=80,059 \text{ years} $$</div>
+                    </div>
+        </div>
+
+       
+<!-- Set B Questions from 1-6 -->
+
+        <div id="q1-2" class="overlay">
+                <div class="popup">
+                    <h2>Integrals - $100 </h2>
+                        <div class="content">What is the indefinite integral of: </br> $$ \int sec(x)tan(x)\,dx$$</div>
+                        <a class="answer" href="#a1-2">&rarr;</a>
+                </div>
+        </div>
+
+         <div id="a1-2" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Integrals- $100 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> $$sec(x)+c$$ </div>
+                    </div>
+        </div>
+
+        <div id="q2-2" class="overlay">
+                <div class="popup">
+                    <h2>Integrals - $200 </h2>
+                        <div class="content"> What is the following: </br> $$ \frac{1}{b-a} \int_a^b f(x)\,dx $$</div>
+                        <a class="answer" href="#a2-2">&rarr;</a>
+                </div>
+        </div>
+
+         <div id="a2-2" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Integrals- $200 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> What is the average mean value theorem? </div>
+                    </div>
+        </div>
+
+        <div id="q3-2" class="overlay">
+                <div class="popup">
+                    <h2>Integrals - $300 </h2>
+                        <div class="content"> This value satisfies the following integral: </br> $$\int_2^k x^2\,dx = 0$$ </div>
+                        <a class="answer" href="#a3-2">&rarr;</a>
+                </div>
+        </div>
+
+         <div id="a3-2" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Integrals- $300 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> What is 2 </div>
+                    </div>
+        </div>
+
+        <div id="q4-2" class="overlay">
+                <div class="popup">
+                    <h2>Integrals - $400 </h2>
+                        <div class="content"> This is the setup and evaluation to the definite integral of a surface area of: </br>$$y=\frac{1}{3}x^3$$ </div>
+                        <a class="answer" href="#a4-2">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a4-2" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Integrals- $400 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> $$S=2\pi \int_0^3 \frac{x^3}{3} \sqrt{1+x^4}\,dx </br> \approx 258.85$$</div>
+                    </div>
+        </div>
+
+
+        <div id="q5-2" class="overlay">
+                <div class="popup">
+                    <h2>Integrals - $500 </h2>
+                        <div class="content"> This is the answer to: <br> $$\int \frac{dx}{x^2(x^2+25)}\,$$ </div>
+                        <a class="answer" href="#a5-2">&rarr;</a>
+                </div>
+        </div>
+
+         <div id="a5-2" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Integrals- $500 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> What is: </br> $$\frac{-1}{25x}-5arctan(\frac{x}{5})+C$$ </div>
+                    </div>
+        </div>
+
+       
+
+
+
+<!-- Set C Questions from 1-6 -->
+
+        <div id="q1-3" class="overlay">
+                <div class="popup">
+                    <h2>Sequences/Series - $100 </h2>
+                        <div class="content"> True or false <br /> .75 = .7499999...</div>
+                        <a class="answer" href="#a1-3">&rarr;</a>
+                </div>
+        </div>
+
+         <div id="a1-3" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Sequences/Series- $100 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> True </div>
+                    </div>
+        </div>
+
+        <div id="q2-3" class="overlay">
+                <div class="popup">
+                    <h2>Sequences/Series - $200 </h2>
+                        <div class="content">These are the 3 conditions for alternating series </div>
+                        <a class="answer" href="#a2-3">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a2-3" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Sequences/Series- $200 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> $$ 1. a^{n+1} < a_n $$ $$2. \lim_{x \to \infty} f(x) $$  3. Converges</div>
+                    </div>
+        </div>
+
+        <div id="q3-3" class="overlay">
+                <div class="popup">
+                    <h2>Sequences/Series - $300 </h2>
+                        <div class="content"> This is the 4th degree MacLaurin series for f(x)=xe<sup>x</sup> </div>
+                        <a class="answer" href="#a3-3">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a3-3" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Sequences/Series- $300 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">$$ x + x^2 + \frac{1}{2}x^3 + \frac{1}{6}x^4$$ </div>
+                    </div>
+        </div>
+
+        <div id="q4-3" class="overlay">
+                <div class="popup">
+                    <h2>Sequences/Series - $400 </h2>
+                        <div class="content"> Find the sum of: </br > $$ \sum_{n=0}^\infty (-1)^n \frac{1}{{2^{2n+1}}(2n+1)}$$   <br /> </div>
+                        <a class="answer" href="#a4-3">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a4-3" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Sequences/Series- $400 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content">$$ arctan(.5) \approx .4636$$</div>
+                    </div>
+        </div>
+
+        <div id="q5-3" class="overlay">
+                <div class="popup">
+                    <h2>Sequences/Series - $500 </h2>
+                       <div class="content"> Find the Lagrange error bound of cos(.1) using a 4th degree MacLaurin Series</div>
+                        <a class="answer" href="#a5-3">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a5-3" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Sequences/Series- $500 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> .0000000833 </div>
+                    </div>
+        </div>
+
+       
+
+        <!-- Set D Questions from 1-6 -->
+        <!--Do this one!!! -->
+        <div id="q1-4" class="overlay">
+                <div class="popup">
+                    <h2>Polar - $100 </h2>
+                        <div class="content"> Math Question </div>
+                        <a class="answer" href="#a1-4">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a1-4" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Polar - $100 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> Math Answer </div>
+                    </div>
+        </div>
+        <!--Do this one!!! -->
+        <div id="q2-4" class="overlay">
+                <div class="popup">
+                    <h2>Polar - $200 </h2>
+                        <div class="content"> Math Question </div>
+                        <a class="answer" href="#a2-4">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a2-4" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Polar - $200 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> Math Answer </div>
+                    </div>
+        </div>
+        <!--Do this one!!! -->
+        <div id="q3-4" class="overlay">
+                <div class="popup">
+                    <h2>Polar - $300 </h2>
+                        <div class="content"> Math Question </div>
+                        <a class="answer" href="#a3-4">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a3-4" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Polar - $300 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> Math Answer </div>
+                    </div>
+        </div>
+<!--Do this one!!! -->
+        <div id="q4-4" class="overlay">
+                <div class="popup">
+                    <h2>Polar - $400 </h2>
+                        <div class="content"> Math Question </div>
+                        <a class="answer" href="#a4-4">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a4-4" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Polar - $400 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> Math Answer </div>
+                    </div>
+        </div>
+        <!--Do this one!!! -->
+        <div id="q5-4" class="overlay">
+                <div class="popup">
+                    <h2>Polar - $500 </h2>
+                        <div class="content"> Math Question </div>
+                        <a class="answer" href="#a5-4">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a5-4" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Polar - $500 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> Math Answer </div>
+                    </div>
+        </div>
+
+       
+
+        <!-- Set E Questions from 1-6 -->
+
+        <div id="q1-5" class="overlay">
+                <div class="popup">
+                    <h2>Related Rates - $100 </h2>
+                        <div class="content"> The radius r of a sphere is increasing at a rate of 3 inches per minute. What is the rate of change of the volume  when r=9?</div>
+                        <a class="answer" href="#a1-5">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a1-5" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Related Rates - $100 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> $$\frac{dv}{dt} = 4\pi r^2 \frac{dr}{dt} = 972\pi$$</div>
+                    </div>
+        </div>
+
+        <div id="q2-5" class="overlay">
+                <div class="popup">
+                    <h2>Related Rates - $200 </h2>
+                        <div class="content">Find two positive numbers where the sum of the first and twice the second equals 108 and the product is a maximum</div>
+                        <a class="answer" href="#a2-5">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a2-5" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Related Rates - $200 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> 54 and 27 </div>
+                    </div>
+        </div>
+
+        <div id="q3-5" class="overlay">
+                <div class="popup">
+                    <h2>Related Rates - $300 </h2>
+                        <div class="content">A solid is formed by adjoining two hemispheres to the ends of a right circular cylinder. The totla volume of this solid is 14 cubic centimeteres. Find the radius of the cylinder that produces the minimum surface area</div>
+                        <a class="answer" href="#a3-5">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a3-5" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Related Rates - $300 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> $$r = \sqrt[3](\frac{21}{2\pi}) \approx 1.5 $$ </div>
+                    </div>
+        </div>
+
+        <div id="q4-5" class="overlay">
+                <div class="popup">
+                    <h2>Related Rates - $400 </h2>
+                        <div class="content"> A trough of water is 8 meters in length and its ends are in the shape of isosceles triangles whose width is 5 meters and height is 2 meters.  If water is being pumped in at a constant rate of 6 meters per second,  At what rate is the height of the water changing when the water has a height of 120 cm? </div>
+                        <a class="answer" href="#a4-5">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a4-5" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Related Rates - $400 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> .25 m/s </div>
+                    </div>
+        </div>
+
+        <div id="q5-5" class="overlay">
+                <div class="popup">
+                    <h2>Related Rates - $500 </h2>
+                        <div class="content"> A sandbag is dropped from a balloon at a height of 60 meters when the angle of elevation to the sun is 30&#176; . Find the rate at which the shadow of the sandbag is traveling along the ground when the sandbag is at a height of 35 meters. </div>
+                        <a class="answer" href="#a5-5">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a5-5" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Related Rates - $500 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> -38.34 m/s </div>
+                    </div>
+        </div>
+
+     
+
+        <!-- Set F Questions from 1-6 -->
+
+        <div id="q1-6" class="overlay">
+                <div class="popup">
+                    <h2>Puns &amp; Jokes - $100 </h2>
+                        <div class="content"> What is the integral of 1/cabin?</div>
+                        <a class="answer" href="#a1-6">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a1-6" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Puns &amp; Jokes - $100 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> Log Cabin + C </div>
+                    </div>
+        </div>
+
+        <div id="q2-6" class="overlay">
+                <div class="popup">
+                    <h2>Puns &amp; Jokes - $200 </h2>
+                        <div class="content"> Why did seven eat nine? </div>
+                        <a class="answer" href="#a2-6">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a2-6" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Puns &amp; Jokes - $200 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> It needed 3 square meals</div>
+                    </div>
+        </div>
+
+        <div id="q3-6" class="overlay">
+                <div class="popup">
+                    <h2>Puns &amp; Jokes - $300 </h2>
+                        <div class="content"> The more you take, the move you leave behind...what am I? </div>
+                        <a class="answer" href="#a3-6">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a3-6" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Puns &amp; Jokes - $300 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> Footsteps </div>
+                    </div>
+        </div>
+
+        <div id="q4-6" class="overlay">
+                <div class="popup">
+                    <h2>Puns &amp; Jokes - $400 </h2>
+                        <div class="content"> Don't trust atoms, they...</div>
+                        <a class="answer" href="#a4-6">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a4-6" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Puns &amp; Jokes - $400 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> Make up everything! </div>
+                    </div>
+        </div>
+
+        <div id="q5-6" class="overlay">
+                <div class="popup">
+                    <h2>Puns &amp; Jokes - $500 </h2>
+                        <div class="content"> What is black when you buy it, red when you use it and grey when discarded?</div>
+                        <a class="answer" href="#a5-6">&rarr;</a>
+                </div>
+        </div>
+
+        <div id="a5-6" class="overlay-key">
+                    <div class="answer-pop">
+                    <h2>Puns &amp; Jokes - $500 </h2>
+                            <a class="close" href="#">&times;</a>
+                            <div class="content"> Charcoal </div>
+                    </div>
+        </div>
+
+     
+
+        </center>
+        </div>
+
+        <div id="scorekeeper">
+                <div class="popup-side">
+                        <a href="#" id="close-score">&times;</a>
+                            <center><h1>Scorekeeper</h1></center>
+                    <div class="box">
+                        <label for="qty"># of Teams</label>
+                        <input id="qty" value="0" />
+                        <button id="down" onclick="modify_qty(-1)">-1</button>
+                        <button id="up" onclick="modify_qty(1)">+1</button>
+                        <button id="save" onclick="modify_qty(0)">Save</button>
+                    </div>
+
+                    
+                    <p></p>
+
+                   
+                        <div class="box1">
+                        <label for="score" style="font-size: 1.5em;">Team 1 Score</label>
+                        <input id="score" value="0" />
+                        <button id="down" onclick="modify_score(-100)">-100</button>
+                        <button id="up" onclick="modify_score(100)">+100</button>
+                        </div>
+
+                   
+                        <div class="box2">
+                        <label for="score2" style="font-size: 1.5em;">Team 2 Score</label>
+                        <input id="score2" value="0" />
+                        <button id="down" onclick="modify_score2(-100)">-100</button>
+                        <button id="up" onclick="modify_score2(100)">+100</button>
+                        </div>
+
+                                        
+                        <div class="box3">
+                        <label for="score3" style="font-size: 1.5em;">Team 3 Score</label>
+                        <input id="score3" value="0" />
+                        <button id="down" onclick="modify_score3(-100)">-100</button>
+                        <button id="up" onclick="modify_score3(100)">+100</button>
+                        </div>
+
+                        <div class="box4">
+                        <label for="score4" style="font-size: 1.5em;">Team 4 Score</label>
+                        <input id="score4" value="0" />
+                        <button id="down" onclick="modify_score4(-100)">-100</button>
+                        <button id="up" onclick="modify_score4(100)">+100</button>
+                        </div>
+
+                        <div class="gameOver"><a href="#congratulations" onclick="endGame()"> Game Over </a></div>
+
+           
+        </div>
+            
+    </div>
+            <div id="congratulations" class="congrats">
+                <div id="endGame"><p></p></div>
+            </div>
+</body>
+
+</html>
