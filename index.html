@@ -19,7 +19,7 @@
 
 <body>
             <script>
-                confirm("Click the pencil to initialize number of teams. Add to it as the game progresses to keep score");
+              //  confirm("Click the pencil to initialize number of teams. Add to it as the game progresses to keep score");
             </script>
     <div class="game">
         <center><div class="header">BC Calculus ~ Budget Jeopardy 2018</div></center>
@@ -107,7 +107,7 @@
         <div id="q2-1" class="overlay">
                 <div class="popup">
                     <h2>Derivatives - $200 </h2>
-                        <div class="content"> Math Question </div>
+                        <div class="content"> What values for the following function are its zeros: $$ f(x) = $$ </div>
                         <a class="answer" href="#a2-1">&rarr;</a>
 
                 </div>
@@ -600,12 +600,15 @@
                 <div class="popup-side">
                         <a href="#" id="close-score">&times;</a>
                             <center><h1>Scorekeeper</h1></center>
+                    <div class="initialBox">
                     <div class="box">
                         <label for="qty"># of Teams</label>
                         <input id="qty" value="0" />
                         <button id="down" onclick="modify_qty(-1)">-1</button>
                         <button id="up" onclick="modify_qty(1)">+1</button>
                         <button id="save" onclick="modify_qty(0)">Save</button>
+                    </div>
+                    <div class="footer">Design by: YuYu Madigan, Anna Banyas, Tad Grindeland and Cerise Nowjack. <br />2018 BC Final Project</div>
                     </div>
 
                     

@@ -20,7 +20,7 @@ function modify_qty(val) {
     if(qty==new_qty){
     	var newStyles = document.createElement('style')
 		document.head.append(newStyles);
-		newStyles.innerHTML = ".box{ display:none}";
+		newStyles.innerHTML = ".initialBox{ display:none}";
 		
 
 		if(qty==1){   
