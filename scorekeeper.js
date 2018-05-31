@@ -86,12 +86,13 @@ function endGame(){
     var team4=modify_score4().valueOf();
   
     var winner = [team1, team2, team3, team4];
+
     winner.sort(function(a,b){return b-a});
 
     if(winner[0] == winner[1]){
         document.getElementById("endGame").innerHTML = "There's a tie!";
     }
-
+    
     else if(team1 == winner[0]){
     document.getElementById("endGame").innerHTML = "Congratulations to Team 1 for a great win!";
     }
@@ -108,12 +109,8 @@ function endGame(){
     document.getElementById("endGame").innerHTML = "Congratulations to Team 4 for a great win!";
     }
 
-    
-
     else{
         document.getElementById("endGame").innerHTML = "You Fucked UP!!!";
     }
-
-
 }
 
