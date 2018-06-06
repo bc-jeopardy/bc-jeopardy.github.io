@@ -4,6 +4,7 @@ body{
 
   font-family: Montserrat;
 }
+
 .header{
 	font-size: 4em;
 	margin-bottom: .5em;
@@ -183,19 +184,20 @@ table a{
 }
 
 .popup .content {
-  width:70%;
-  position: fixed;
+  width:80%;
+  position: relative;
   top: 40%;
   transform: translateY(-50%);
   font-size:3em;
 }
 
 .answer-pop .content {
-  width: 70%;
+  width: 80%;
   position: relative;
   top: 40%;
   transform: translateY(-50%);
-  font-size: 2.5em;
+  font-size: 3em;
+  word-wrap: break-word;
 }
 /*Code for Score Popup*/
 

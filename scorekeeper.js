@@ -113,3 +113,4 @@ function endGame(){
         document.getElementById("endGame").innerHTML = "You Fucked UP!!!";
     }
 }
+
