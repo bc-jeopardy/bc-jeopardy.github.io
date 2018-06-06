@@ -1,11 +1,12 @@
 body{
 	background-color:#3450db;
 	overflow-y:hidden;
+  margin-top:0;
   font-family: Montserrat;
 }
 .header{
 	font-size: 4em;
-	margin-top:.5em;
+	
 	margin-bottom: .5em;
 	font-family: Abel;
 	font-weight:bold;
@@ -183,19 +184,19 @@ table a{
 }
 
 .popup .content {
-  width: 80%;
-  position: relative;
+  width:70%;
+  position: fixed;
   top: 40%;
   transform: translateY(-50%);
   font-size:3em;
 }
 
 .answer-pop .content {
-  width: 80%;
+  width: 70%;
   position: relative;
   top: 40%;
   transform: translateY(-50%);
-  font-size:3em;
+  font-size: 2.5em;
 }
 /*Code for Score Popup*/
 
@@ -259,7 +260,7 @@ table a{
 
 .popup-side .content {
   width: 80%;
-  position: relative;
+  position: absolute;
   top: 40%;
   transform: translateY(-50%);
   font-size:3em;
