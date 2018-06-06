@@ -112,5 +112,4 @@ function endGame(){
     else{
         document.getElementById("endGame").innerHTML = "You Fucked UP!!!";
     }
-
 }
