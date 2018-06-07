@@ -503,3 +503,49 @@ background-color:#FFF;
 .solutions:hover{
     opacity: .6;
 }
+
+.fullscreen {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.video {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#back{
+  display:block;
+  height:40px;
+  width:70px;
+  padding:10px;
+  text-decoration:none;
+  background-color:#3450db;
+  z-index:9999;
+  border-radius:15px;
+  position:absolute;
+  margin-left: 65%;
+  margin-top: 40%;
+  opacity: .7;
+  color:#000000;
+    }
+  #back a{
+    text-decoration:none;
+    font-size:20px;
+    opacity:.9;
+    z-index:9999;
+    display:block;
+    color:#000000;
+    margin-top: 10%;
+    }
+    #back:hover{
+      opacity: .9;
+    }
